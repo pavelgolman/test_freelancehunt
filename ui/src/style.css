@@ -1,0 +1,48 @@
+#app {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body               {
+  background:#9BC86A;
+  font:400 14px 'Calibri','Arial';
+  padding:20px;
+}
+
+blockquote {
+  color:white;
+  text-align:center;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background:white;
+  border-radius:6px;
+  overflow:hidden;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+table thead tr, table tfoot tr {
+  height:60px;
+  background:#FFED86;
+  font-size:16px;
+}
+
+table td, th{
+  padding: 10px;
+}
+
+table tbody tr {
+    height:48px;
+    border-bottom:1px solid #E3F1D5 ;
+    &:last-child  { border:0; }
+ }
+
+table tr.expanded{
+  background-color: aliceblue;
+}
