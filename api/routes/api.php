@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/projects', [\App\Http\Controllers\ProjectsController::class, 'index']);
-Route::get('/project/{id}', [\App\Http\Controllers\ProjectsController::class, 'info']);
+Route::get('/projects', [\App\Http\Controllers\ProjectsController::class, 'index'])->middleware('cacheResponse:300');;
+Route::get('/project/{id}', [\App\Http\Controllers\ProjectsController::class, 'info'])->middleware('cacheResponse:300');;

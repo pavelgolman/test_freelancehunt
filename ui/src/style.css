@@ -1,6 +1,5 @@
 #app {
-  max-width: 1280px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -45,4 +44,42 @@ table tbody tr {
 
 table tr.expanded{
   background-color: aliceblue;
+}
+
+
+.alert {
+  min-height: 67px;
+  width: 30%;
+  max-width: 90%;
+  border-radius: 12px;
+  padding: 16px 22px 17px 20px;
+  display: flex;
+  align-items: center;
+  margin: 200px auto 0px auto;
+}
+.alert-error {
+  background: #e41749;
+}
+.alert p {
+  color: #fff;
+  font-family: Verdana;
+  margin-left: 10px;
+  margin: auto;
+}
+.alert p a,
+.alert p a:visited,
+.alert p a:active {
+  color: #fff;
+}
+
+.search-name{
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+.search-budget{
+  width: 100px;
+  border: none;
+  padding: 5px;
 }
