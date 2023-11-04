@@ -23,7 +23,6 @@ class FreelancehuntService
     public function index(array $input = []){
         return Http::freelancehunt()->get('/projects', [
             'page[number]' => $input['page'] ?? 1,
-            'filters' => []
         ]);
     }
 
